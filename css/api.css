@@ -1,0 +1,23 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab|Roboto|Montserrat|Lato';
+
+.navbar-title {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 16px;
+  color: #0A0A0A;
+  text-transform : uppercase;
+}
+
+.pokemon-image {
+  width: inherit;
+}
+
+.pokemon-container {
+  padding-top: 50px;
+  width: 300px;
+}
+
+.input-container {
+  padding-top: 50px;
+  width: 300px;
+}
