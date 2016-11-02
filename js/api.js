@@ -1,6 +1,6 @@
 'use-strict';
 
-var pokeapi = 'http://pokeapi.co/api/v2/pokemon/';
+var pokeapi = 'https://pokeapi.co/api/v2/pokemon/';
 
 var toggleimage = function(element) {
   var pokemonName = $('#pokemonname').val();
