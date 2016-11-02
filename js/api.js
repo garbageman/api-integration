@@ -6,8 +6,12 @@ var toggleimage = function(element) {
   var pokemonName = $('#pokemonname').val();
 
   $.ajax({
-    url: pokeapi + pokemonName
-  }).done(function (response) {
-    $('#pokemonpic').attr('src', response.sprites.front_default);
+    url: pokeapi + pokemonName,
+    success: function (response) {
+      $('#pokemonpic').attr('src', response.sprites.front_default);
+    },
+    error: function (error) {
+      console.log(error);
+    }
   });
 };
